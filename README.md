@@ -20,6 +20,10 @@
 		* Be consistent
 	1. Composer
 	1. Autoloading
+	1. Error Handling
+		* Interpreter Generated Errors
+			* Notices, Warnings and Fatals
+		* Exceptions		
 	1. PHP FIG
 		* Core PSR's
 	1. Hints and Tips
@@ -29,6 +33,7 @@
 	1. Advantages
 	1. OOP in PHP
 	1. Object orchestration
+	1. Namespaces
 	1. Design Patterns 
 		1. Intro to the Gang of Four java patterns
 		2. Types of Design Patterns
