@@ -10,10 +10,7 @@
 		* Simple use in PHP
 	1. Code Reuse principles
 		* DRY coding
-	1. Environment Virtualisation
-		* Advantages
-		 * Consistent team environment
-		 * Easy to reset to a known state
+		* Technical Debt
 	1. Code organisation
 		* Code Organisation
 	1. Naming directories, files, variables and objects
@@ -26,6 +23,7 @@
 		* Exceptions		
 	1. PHP FIG
 		* Core PSR's
+	1. SPL
 	1. Hints and Tips
 		* Fail Fast
 		* Try not to use `else`	
@@ -141,6 +139,10 @@
 			* PAAS
 			* VMs
 			* Containers
+    1. Environment Virtualisation
+        * Advantages
+         * Consistent team environment
+         * Easy to reset to a known state
 1. Principles of Users Experience and Information Architecture
 	1. Red Routes
 	1. Paper Prototyping
