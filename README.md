@@ -26,7 +26,7 @@
 	1. SPL
 	1. Hints and Tips
 		* Fail Fast
-		* Try not to use `else`	
+		* Try not to use `else`
 1. Objected Oriented Programming
 	1. Advantages
 	1. OOP in PHP
