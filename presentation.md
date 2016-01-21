@@ -19,7 +19,6 @@ You can get these from https://www.jetbrains.com/phpstorm/marklets/.
 
 
 
-
 ## Invoking the debugger
 
 1. In your browser click the 'Start Debugger' bookmark.
@@ -28,3 +27,19 @@ You can get these from https://www.jetbrains.com/phpstorm/marklets/.
 <img src="img/chrome-bookmarks.png"><br />
 <img src="img/listener-off.png">
 <img src="img/listener-on.png">
+
+
+
+## Setting breakpoints
+
+Within PHPStorm setting a breakpoint is done on the left hand side of the editor window.
+
+<img src="img/breakpoint-unset.png">                                    <!-- .element: class="fragment" data-fragment-index="1" -->
+<img src="img/breakpoint-set.png">                                      <!-- .element: class="fragment" data-fragment-index="2" -->
+
+Refresh the web browser and you will see Xdebug break at your breakpoint.<!-- .element: class="fragment" data-fragment-index="2" -->
+
+
+
+## The PHPStorm Debug Tab
+
