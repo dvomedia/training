@@ -41,5 +41,32 @@ Refresh the web browser and you will see Xdebug break at your breakpoint.<!-- .e
 
 
 
+## Notes on Setting Breakpoints
+
+You cannot set a breakpoint on:
+* Non php code
+* Braces
+* Funtions
+* Method Signatures
+
+
 ## The PHPStorm Debug Tab
 
+* Play button
+* View all breakpoints
+
+
+
+## Inline Info
+
+
+## Conditional Breakpoints
+
+
+## Watches
+
+
+## The Debug Console
+
+
+##
