@@ -5,7 +5,7 @@ handling capabilities and this is what we will explore.
 
 
 
-## Getting started with Xdebug
+## Getting started with Xdebug via PHPStorm
 
 
 
@@ -50,23 +50,94 @@ You cannot set a breakpoint on:
 * Method Signatures
 
 
-## The PHPStorm Debug Tab
 
-* Play button
-* View all breakpoints
+## The PHPStorm Debugger
 
+<img src="img/PHPStorm-Debug-Tab.png">
 
-
-## Inline Info
-
-
-## Conditional Breakpoints
-
-
-## Watches
+1. Debug Toolbar
+2. Debugger Tab
+3. Debugger Console Tab
+4. Frame Window (Stack trace or code flow)
+5. Variables within the current scope
+6. Watched Variables
 
 
-## The Debug Console
+
+## 1. The Debug Toolbar
+
+* Play, Pause
+* Stop
+* View Breakpoints
+* Mute Breakpoints
+* Restore Layout
+* Settings
+* Pin Tab
+* Close
+* Help
 
 
-##
+
+## 2. The Debugger Tab
+
+This is the main container for Frames (Stack traces), Variables and Watches
+
+
+
+## 3. The Debugger Console
+
+No idea, I never use this!
+At first switch off show by default
+
+
+
+## 4. Frames and Stack Traces
+
+### The heart of the debugging system
+Here you can:
+* Select any point in the current execution flow
+* Variables at that point in time
+* See how the stack of calls work throughout the request
+
+
+
+## 5. Variables & Scope
+
+### The lungs of the debugging system
+* Inspect variables and their types
+* Drill down into complex objects
+* Copy values of variables (e.g. SQL statements)
+
+
+
+## 6. Watching Variables
+
+* Allows viewing of variables, expressions or parts of an object or array
+* Easy insight into specific variables of interest
+
+## Complex Debugging
+
+### Using The Stack To Your Advantage
+
+* Conditional Breakpoints
+* Using the Console
+
+
+
+## Stepping through code
+
+* Step Over
+* Step Into
+* Play until the next breakpoint
+
+
+
+## Any Questions?
+
+
+
+## Thank You
+
+Simon Griffiths ([email](mailto:simon.griffiths@dvomedia.net))
+or @sigriffiths_ on [Twitter](http://twitter.com/sigriffiths_)
+or sigriffiths on [Github](https://github.com/sigriffiths)
