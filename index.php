@@ -2,14 +2,16 @@
 <head><title>Hello Developers</title></head>
 <body>
 <?php
-    include 'libs/salutations.php';
-    include 'libs/user.php';
-    include 'libs/weather.php';
-    echo getGreeting('Good evening') . ' ' . getName();
-?>
-<h1><?= todaysWeather(); ?></h1>
+    include 'basic-autoloader.php';
+    $salutations = new Models_salutations();
+    $user = new Models_user();
+    $weather = new Models_weather();
 
-<?php if (todaysWeather() === 'RAIN!!!!') : ?>
+    echo $salutations->getGreeting('Good evening') . ' ' . $user->getName();
+?>
+<h1><?= $weather->todaysWeather(); ?></h1>
+
+<?php if ($weather->todaysWeather() === 'RAIN!!!!') : ?>
     <span>Booo :(</span>
 <?php endif; ?>
 </body>
