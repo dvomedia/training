@@ -143,6 +143,15 @@
         * Advantages
          * Consistent team environment
          * Easy to reset to a known state
+1. Soft Skills
+	* Communication
+	* Listening
+	* Adaptability
+	* Teamwork
+	* Attitude
+		* Disagreeing without being disagreeable
+	* Work Ethic
+	* Critical Thinking
 1. Principles of Users Experience and Information Architecture
 	1. Red Routes
 	1. Paper Prototyping
