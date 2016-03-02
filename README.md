@@ -24,6 +24,7 @@
 	1. PHP FIG
 		* Core PSR's
 	1. SPL
+	1. Type Coercion
 	1. Hints and Tips
 		* Fail Fast
 		* Try not to use `else`
@@ -32,6 +33,7 @@
 	1. OOP in PHP
 	1. Object orchestration
 	1. Namespaces
+	1. PHP7 Return Types
 	1. Design Patterns 
 		1. Intro to the Gang of Four java patterns
 		2. Types of Design Patterns
