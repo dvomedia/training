@@ -86,7 +86,7 @@ This is the main container for Frames (Stack traces), Variables and Watches
 
 ## 3. The Debugger Console
 
-No idea, I never use this!
+No idea, I never use this! (Well once, for this presentation)
 At first switch off show by default
 
 
